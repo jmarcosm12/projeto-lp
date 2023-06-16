@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DNC</title>
+  </head>
+  <body>
+    <!-- cabeçalho -->
+    <header>
+      <div>
+        <div>
+          <img src="./assets/images/dnc.svg" alt="" id="logo" />
+
+          <h1 id="titulo-principal">
+            Dê os primeiros passos da <br />
+            sua carreira em Tecnologia
+          </h1>
+          <h5 id="titulo-secundario">
+            Inscreva-se no curso gratuito de Introdução à <br />
+            Tecnologia da DNC School e aprenda os principais <br />
+            fundamentos para construir experiências efetivas.
+          </h5>
+        </div>
+      </div>
+    </header>
+    <!--Menu Informacional-->
+    <main class="container">
+      <section id="menu-informacional">
+        <p class="texto-informativo">
+          <img src="./assets/images/certificado.svg" class="icone" alt="" />
+          Certificado de conclusão
+        </p>
+
+        <p class="texto-informativo">
+          <img src="./assets/images/hora.svg" class="icone" alt="" /> 4 horas de
+          conteúdo
+        </p>
+
+        <p class="texto-informativo">
+          <img src="./assets/images/video.svg" class="icone" alt="" /> Aulas
+          online gravadas
+        </p>
+      </section>
+      <!--Vídeo-->
+      <section>
+        <div id="secvideo">
+          <iframe id="video"
+            width="502"
+            height="283"
+            src="https://www.youtube.com/embed/ITxGkd9h4n4"
+            title="DNC - A escola inovadora que forma profissionais de alta perfomance"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>       
+          <div>
+            <h1 id="texto-principal">
+                Aprenda com especialistas e <br />
+                comece seu primeiro projeto <br>
+              </h1>
+              <p id="texto-sec">
+                Conheça o processo de desenvolvimento e entenda como utilizar <br />
+                os principais métodos e ferramentas da área para resolver <br>
+                problemas complexos. <br> <br>
+                Conquiste seu certificado e desenvolva um
+                projeto prático para <br />
+                aplicar seus conhecimentos.
+              </p>
+          </div>
+         
+        </div>
+      </section>
+      <!--Carrossel-->
+      <section class="carrossel">
+        <div>
+            <h1 id="tit-carrossel">Mais de 500 alunos já iniciaram seus estudos</h1>
+        </div>
+        <!--Divisão dos cards-->
+        <div id="div-cards">
+            <img id="seta-esquerda" onclick="esquerda()" class="seta" src="./assets/images/setaesquerda.svg" alt="">
+            <img id="leonardo" class="card" src="./assets/images/card1.svg" alt="">
+            <img id="samanta" class="card" src="./assets/images/card2.svg" alt="">
+            <img id="bruna" class="card" src="./assets/images/card3.svg" alt="">
+            <img  id="seta-direita" onclick="direita()" class="seta"   src="./assets/images/setadireita.svg" alt="">
+        </div>     
+      </section>
+      <section>
+        <div id="formulario">
+          <h1 id="txt-form">
+            Comece agora mesmo e dê o próximo passo da sua carreira
+          </h1>
+        
+          <form action="https://api.sheetmonkey.io/form/b1vn6BQXwBZ2ABpkUG5jBg" method="post">
+          <input type="text" placeholder="Nome" name="Name" required> <br>
+          <input type="email" placeholder="E-mail" name="email" required> <br>
+          <input type="number" placeholder="Telefone" name="phone" required> <br>
+          <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+          <button type="submit">Acesse Ementa Grátis</button>
+        </form>
+       
+      </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+</html>

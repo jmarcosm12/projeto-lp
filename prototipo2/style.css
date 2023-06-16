@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap');
+
+*{
+    margin: 0px;
+    font-family: Inter;
+    
+}
+
+img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#titulo-principal {
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+#titulo-secundario {
+    margin-left:150px;
+    margin-top: 25 px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 100px;
+}
+
+header {
+    
+    color: white;
+    background-image: url(./assets/images/img.svg);
+}
+
+#menu-informacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;  
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 20px;
+   
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+     
+}
+
+#secvideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+
+#texto-principal{
+    color: #247BA0;
+    margin-top: 75px;
+    padding-bottom: 50px;
+    font-size: 28px;
+}
+
+
+#video {
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 2px;
+    padding: 20px;
+
+}
+
+.carrossel{
+    background: #247BA0;
+    padding: 50px;
+   
+    
+}
+
+#tit-carrossel{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+} 
+.card{
+    margin-left: 150px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#bruna {
+    display: none;
+}
+
+.seta{
+    margin-top: 100%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#txt-form{
+    color:#383838;
+    padding: 20px;
+    text-align: center;
+
+}
+#formulario{
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    background-color: #EAECE5;
+    border: none;
+    border-radius: 5px;
+    color: #383838;
+}
+
+button{
+    background-color: #247BA0;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
